@@ -20,26 +20,6 @@ For Mac OS X
 
 
 
-
-### Create your own
-1. To begin creating your own project you will need to install Vagrant and Virtual Box.
-2. Vagrant's download file can be found on their homepage:  ```https://www.vagrantup.com/```.
-3. Virtual Box's download can be found on the following page (select the relevant operating system): ```https://www.virtualbox.org/wiki/Downloads```.
-4. Run the respective PKG files to install them onto your machine.
-5. Open Your terminal.
-6. Create a directory where ever you deem appropriate using: ```mkdir dev-environment```.
-7. Change working directory to move into previously created directory using: ```cd dev-environment```.
-8. Check to see if vagrant has been installed by typing: ```vagrant```. If successful, a list of commands should appear. If not repeat steps 2 and 4.
-9. Inside the terminal type ```vagrant init ubuntu/xenial64```.
-10. Once finished type: ```subl .``` to open the contents of the current directory in sublime.
-11. Remove all commented lines from the vagrant file, minus the first two.
-12. Save the file.
-13. Back in the terminal type ```vagrant up``` to start the virtual machine.
-14. Once it has finished starting, type ```vagrant ssh``` to enter the virtual machines terminal.
-15. Check to ensure you are in the virtual machines terminal and not the hosts.
-16. Type ```sudo apt-get update``` in the virtual machines terminal.
-17. Type ```exit``` to return to the host terminal.
-
 ### Optional - To automate plugin installation
 1. Open the vagrant file using ```subl .``` 
 2. Type this at the top of the vagrant file: 
