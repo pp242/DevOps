@@ -40,7 +40,7 @@ For Mac OS X
 16. Type ```sudo apt-get update``` in the virtual machines terminal.
 17. Type ```exit``` to return to the host terminal.
 
-###Optional - To automate plugin installation
+### Optional - To automate plugin installation
 1. Open the vagrant file using ```subl .``` 
 2. Type this at the top of the vagrant file: 
 ```
