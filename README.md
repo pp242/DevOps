@@ -1,4 +1,4 @@
-#READ ME
+# READ ME
 
 For Mac OS X 
 ### Cloning from GitHub
