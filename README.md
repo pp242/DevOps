@@ -40,4 +40,17 @@ For Mac OS X
 16. Type ```sudo apt-get update``` in the virtual machines terminal.
 17. Type ```exit``` to return to the host terminal.
 
+###Optional - To automate plugin installation
+1. Open the vagrant file using ```subl .``` 
+2. Type this at the top of the vagrant file: 
+```
+required_plugins = %w( vagrant-omnibus vagrant-aws )
+required_plugins.each do |plugin|
+    exec "vagrant plugin install #{plugin};vagrant #{ARGV.join(" ")}" unless Vagrant.has_plugin? plugin || ARGV[0] == 'plugin'
+end
+```
+3. Change (within the brackets) the name of the plugin/s you require.
+4. Save the file
+5. ```vagrant up``` should now work automatically with plugins.
+
 
