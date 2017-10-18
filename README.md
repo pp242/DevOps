@@ -1,7 +1,6 @@
 # READ ME
 
 For Mac OS X 
-### Cloning from GitHub
 1. To begin using this Project you will need to install Vagrant and Virtual Box.
 2. Vagrant's latest download file can be found on their homepage:  ```https://www.vagrantup.com/```.
 3. Virtual Box's download can be found on the following page (select the relevant operating system): ```https://www.virtualbox.org/wiki/Downloads```.
