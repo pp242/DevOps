@@ -14,8 +14,10 @@ For Mac OS X
 11. If so, in the terminal type ```vagrant up``` to start the virtual machine.
 12. Once the loading has finished, type ```vagrant ssh``` to enter the virtual machines terminal.
 13. Check to ensure you are in the virtual machines terminal and not the hosts.
-14. The command ```sudo apt-get update``` should install updates correctly.
-15. Type ```exit``` to return to the host terminal.
+14. Once in the VM's terminal, type ```cd app```.
+15. Once in the app directory, run ```node app.js```.
+16. Go to a browser on the host machine and navigate to ```development.local:3000```.
+
 
 
 
