@@ -15,4 +15,4 @@ sudo npm install -g pm2
 
 #Adds app user and group
 sudo adduser --disabled-password app
-sudo chown -R app:app app
+sudo chown -R app:app /home/ubuntu/app
