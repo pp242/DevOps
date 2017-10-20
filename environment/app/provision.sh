@@ -13,4 +13,6 @@ sudo bash nodesource_setup.sh
 sudo apt-get install nodejs -y
 sudo npm install -g pm2
 
-
+#Adds app user and group
+sudo adduser --disabled-password app
+sudo chown -R app:app app
