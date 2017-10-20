@@ -14,5 +14,5 @@ sudo apt-get install nodejs -y
 sudo npm install -g pm2
 
 #Adds app user and group
-sudo adduser --disabled-password app
+sudo adduser --disabled-password --gecos "" app
 sudo chown -R app:app /home/ubuntu/app
