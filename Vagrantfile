@@ -22,6 +22,8 @@ Vagrant.configure("2") do |config|
     #Run the provisioning script
     app.vm.provision "shell", path: "environment/app/provision.sh"
 
+    app.vm.provision "shell" , inline: "echo 'export DB_HOST=mongodb://192.168.10.101/blog' >> .bashrc"
+
   end
 
   config.vm.define "db" do |db|
