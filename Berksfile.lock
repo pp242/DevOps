@@ -1,0 +1,11 @@
+DEPENDENCIES
+  mongodb-server
+    git: https://github.com/pp242/mongo
+    revision: d861593a8a439f0d941c05f37ff760a3b1e5694b
+  node-server
+    git: https://github.com/pp242/node
+    revision: e383d92d5aff81ef9ed6ac0fdf05931571f85d37
+
+GRAPH
+  mongodb-server (0.1.0)
+  node-server (0.1.0)
